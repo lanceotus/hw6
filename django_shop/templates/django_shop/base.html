@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+{% load static %}
+<link rel="stylesheet" href="{% static 'django_shop/css/mainstyle.css' %}">
+{% block extra_css %}
+{% endblock %}
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block ttl %}
+        {% endblock %}
+    </title>
+</head>
+<body>
+    <div class="menu">
+        <div class="logo">Магазин ножей</div>
+        <div class="menu_item"><a href="{% url 'django_shop:index' %}" class="menu_text">На главную</a></div>
+        <div class="menu_item"><a href="{% url 'django_shop:products' %}" class="menu_text">Товары</a></div>
+    </div>
+    <div class="main_body">
+        {% block bdy %}
+        {% endblock %}
+    </div>
+</body>
+</html>
