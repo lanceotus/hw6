@@ -4,7 +4,7 @@
 		"pk":1,
 		"fields":{
 			"name": "Benchmade 551 Griptilian",
-			"picture": "bm551-1.jpg",
+			"picture": "/img/bm551-1.jpg",
 			"blade_material": "Сталь 154CM",
 			"hardness": "58-60",
 			"handle_material": "Noryl GTX",
@@ -24,7 +24,7 @@
 		"pk":2,
 		"fields":{
 			"name": "Benchmade 940 Osborne",
-			"picture": "bm940_osborne-1.jpg",
+			"picture": "/img/bm940_osborne-1.jpg",
 			"blade_material": "Порошковая сталь Crucible CPM S30V",
 			"hardness": "58-60",
 			"handle_material": "Анодированный алюминиевый сплав (6061 T-6 Aluminium)",
@@ -44,7 +44,7 @@
 		"pk":3,
 		"fields":{
 			"name": "Benchmade Barrage",
-			"picture": "bm581-1.jpg",
+			"picture": "/img/bm581-1.jpg",
 			"blade_material": "Порошковая сталь Böhler M390 Microclean",
 			"hardness": "60-62",
 			"handle_material": "Стеклотекстолит G-10",
@@ -64,7 +64,7 @@
 		"pk":4,
 		"fields":{
 			"name": "Spyderco Endura 4",
-			"picture": "c10pbk_3_.jpg",
+			"picture": "/img/c10pbk_3_.jpg",
 			"blade_material": "Сталь VG-10",
 			"hardness": "60-61",
 			"handle_material": "Термопластик FRN",
@@ -84,7 +84,7 @@
 		"pk":5,
 		"fields":{
 			"name": "Spyderco Police",
-			"picture": "c07ps_3_.jpg",
+			"picture": "/img/c07ps_3_.jpg",
 			"blade_material": "Сталь VG-10",
 			"hardness": "60-61",
 			"handle_material": "Нержавеющая сталь",
@@ -104,7 +104,7 @@
 		"pk":6,
 		"fields":{
 			"name": "Spyderco Military",
-			"picture": "c36gpe-2.jpg",
+			"picture": "/img/c36gpe-2.jpg",
 			"blade_material": "Порошковая сталь Crucible CPM S30V",
 			"hardness": "58-60",
 			"handle_material": "Стеклотекстолит G-10",

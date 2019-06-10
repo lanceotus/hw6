@@ -16,7 +16,7 @@
         <a href="{% url 'django_shop:products' %}{{ item.id }}/">
             <div class="product_card">
                 <p class="card_product_name">{{ item.name }}</p>
-                <img src="{% static 'django_shop/img/' %}{{ item.picture }}" width="100%">
+                <img src="{{ item.picture.url }}" width="100%">
                 <div class="card_price_box">
                     Цена: <span class="card_price_text">{{ item.price }}</span> руб.
                 </div>

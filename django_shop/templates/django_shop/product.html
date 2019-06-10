@@ -14,7 +14,7 @@
     <p class="product_name">{{ product.name }}</p>
     <div class="image_column">
         {% load static %}
-        <img src="{% static 'django_shop/img/' %}{{ product.picture }}" width="100%">
+        <img src="{{ product.picture.url }}" width="100%">
         <div class="price_box">
             Цена: <span class="price_text">{{ product.price }}</span> руб.
         </div>

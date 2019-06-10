@@ -27,6 +27,7 @@ handler404 = views.handler404
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),
+    url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
     path('', include('django_shop.urls'))
 ]
 
